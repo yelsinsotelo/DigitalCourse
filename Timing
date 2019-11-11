@@ -1,0 +1,14 @@
+One of the most challenging issues in circuit design is timing.
+______________________________________
+|Propagation and Contamination delay |
+--------------------------------------
+those are characteristics of combinational circuit
+tpd => propagation delay 
+Is the maximum time from when the outpur changes until the output or outputs reach their final values
+tcd => contamination delay
+Is the minimum time from when an input changes until any output starts to change its value
+
+Tpd an Tcd may be for many reasons as : 
+1. different rising and falling delay
+2. multiples inputs and outputs, some of which are faster than other
+3. circuits slowing down when hot and speeding up when cold 
