@@ -12,3 +12,18 @@ Tpd an Tcd may be for many reasons as :
 1. different rising and falling delay
 2. multiples inputs and outputs, some of which are faster than other
 3. circuits slowing down when hot and speeding up when cold 
+
+the propagation and contamination delays are also determined by path a signal take from 
+input to output.
+
+critica path: it limits the speed at which the circuits operates.
+
+____________
+| Glitches |  (Generally, it isn't problem)
+------------
+
+so far we have discussed the case where a single input transition 
+causes a single output transition. However, it is posible that a single input transition
+can causes multiple output transitions. These are called glitches or hazards.
+
+It is important to realize that they exist and recognize them when looking at timming diagram.
